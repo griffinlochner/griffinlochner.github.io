@@ -1,13 +1,9 @@
 html {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
-  color: #a4e7ff;
   background-color: #0f0e10;
   }
 
-a {
-  }
-  
 a:link, a:visited {
   outline: none;
   text-decoration: none;
@@ -22,6 +18,7 @@ a:hover {
   border-bottom: 3px solid;
   }
 
+
 .about-link:hover, .about-link:focus {
   color: rgba(255, 153, 0);
 }
@@ -31,11 +28,11 @@ a:hover {
 }
 
 .resume-link:hover, .resume-link:focus {
-  color: rgba(255,227,0,1);
+  color: #d85670;
 }
 
 .books-link:hover, .books-link:focus {
-  color: rgba(255,227,0,1);
+  color: #ca3e98;
 }
 
 .links-link:hover, .links-link:focus {
@@ -54,9 +51,23 @@ h1 {
   -webkit-text-fill-color: transparent;
   }
 
+h2 {
+  font-size: 50px;
+  margin: 0 auto;
+  padding-top: 96px;
+  text-align: center;
+}
+
 header {
+  background-color: #0f0e10;
+  position: fixed;
+  top: 0;
   width: 100%;
   text-align: center;
+}
+
+.border {
+  border-bottom: 1px solid rgb(176, 176, 176);
 }
 
 main {
