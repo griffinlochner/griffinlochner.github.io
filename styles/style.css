@@ -60,15 +60,12 @@ h2 {
 
 header {
   background-color: #0f0e10;
+  border-bottom: 1px solid rgb(176, 176, 176);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   text-align: center;
-}
-
-.border {
-  border-bottom: 1px solid rgb(176, 176, 176);
 }
 
 main {
@@ -95,8 +92,33 @@ li {
   letter-spacing: 1px;
 }
 
+#hamburger {
+  font-size: 48px;
+  display: none;
+}
+
+#hamburger:hover, #hamburger:focus {
+  border-bottom: none;
+  background: rgb(144, 0, 201);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width: 1016px) {
-  html {
-    background-color: red;
+  header {
+    text-align: left;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  #hamburger {
+    /* float: right; */
+    display: inline;
+    position: fixed;
+    top: 0;
+    right: 0;
   }
 }
