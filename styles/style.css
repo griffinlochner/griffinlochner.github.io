@@ -24,11 +24,11 @@ a:hover {
 
 
 .about-link:hover, .about-link:focus {
-  color: rgba(255, 153, 0);
+  color: rgb(255, 153, 0);
 }
 
 .about-text {
-  color:rgb(255, 153, 0)
+  color:rgb(255, 153, 0);
 }
 
 .resume-link:hover, .resume-link:focus {
@@ -140,6 +140,10 @@ li {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#hamburger:focus {
+  border: 1px solid rgb(255, 153, 0);
 }
 
 @media screen and (max-width: 1300px) {
