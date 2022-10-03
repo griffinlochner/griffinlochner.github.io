@@ -67,6 +67,12 @@ h1 {
   text-align: center;
 }
 
+.header-open h1 {
+  padding-left: unset;
+  position: relative;
+  top: 16px;
+}
+
 .header-open a{
   display: inline;
 }
@@ -123,6 +129,9 @@ li {
 #hamburger {
   font-size: 40px;
   display: none;
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
 #hamburger:hover, #hamburger:focus {
@@ -210,7 +219,6 @@ li {
   }
 
   #hamburger {
-    float: right;
     display: block;
   }
 
@@ -241,7 +249,6 @@ li {
   }
 
   #hamburger {
-    float: right;
     display: block;
   }
 
