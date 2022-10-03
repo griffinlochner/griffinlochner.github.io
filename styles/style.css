@@ -35,7 +35,15 @@ a:hover {
   color: #ec7837;
 }
 
+.resume-text {
+  color: #ec7837;
+}
+
 .art-link:hover, .art-link:focus {
+  color: #d85670;
+}
+
+.art-text {
   color: #d85670;
 }
 
@@ -43,8 +51,16 @@ a:hover {
   color: #ca3e98;
 }
 
+.books-text {
+  color: #ca3e98;
+}
+
 .links-link:hover, .links-link:focus {
-  color: rgba(166, 0, 255);
+  color: rgb(166, 0, 255);
+}
+
+.links-text {
+  color:rgb(166, 0, 255);
 }
   
 h1 {
