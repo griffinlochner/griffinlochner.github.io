@@ -4,6 +4,10 @@ html {
   background-color: #0f0e10;
   }
 
+a {
+  font-weight: bold;
+}
+
 a:link, a:visited {
   outline: none;
   text-decoration: none;
@@ -48,18 +52,19 @@ h1 {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding-left: 8px;
-  font-size: 56px;
+  font-size: 64px;
   background: rgb(144, 0, 201);
   background: linear-gradient(90deg,rgb(255, 153, 0) 0%, rgb(166, 0, 255) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
   }
 
 h2 {
   font-size: 48px;
   margin: 0 auto;
-  padding-top: 96px;
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -109,10 +114,14 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 
   h1 {
     font-size: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 
   nav a {
@@ -120,10 +129,14 @@ li {
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1080px) {
 
   h1 {
     font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
   }
 
   nav a {
@@ -135,10 +148,18 @@ li {
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 908px) {
 
   h1 {
     font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  html {
+    font-size: 16px;
   }
 
   nav a {
@@ -150,10 +171,18 @@ li {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 736px) {
 
   h1 {
     font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  html {
+    font-size: 16px;
   }
 
   nav a {
@@ -169,7 +198,15 @@ li {
 @media screen and (max-width: 528px) {
 
   h1 {
+    font-size: 32px;
+  }
+
+  h2 {
     font-size: 24px;
+  }
+
+  html {
+    font-size: 18px;
   }
 
   nav a {
@@ -180,3 +217,9 @@ li {
     float: right;
     display: block;
   }
+
+  li {
+    padding-bottom: 8px;
+    padding-left: 0px;
+  }
+}
