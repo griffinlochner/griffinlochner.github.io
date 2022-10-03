@@ -63,6 +63,8 @@ h1 {
 
 .header-open {
   height: auto;
+  display: block;
+  text-align: center;
 }
 
 .header-open a{
@@ -71,6 +73,11 @@ h1 {
 
 .header-open ul {
   display: block;
+  padding: unset;
+}
+
+.header-open li {
+  padding: unset;
 }
 
 h2 {
@@ -199,6 +206,7 @@ li {
 
   nav a {
     display: none;
+    font-size: 24px;
   }
 
   #hamburger {
@@ -218,11 +226,12 @@ li {
   }
 
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   nav a {
     display: none;
+    font-size: 24px;
   }
 
   #hamburger {
