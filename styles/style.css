@@ -31,7 +31,7 @@ a:hover {
   color: #ec7837;
 }
 
-.art-link:hover, .resume-link:focus {
+.art-link:hover, .art-link:focus {
   color: #d85670;
 }
 
@@ -46,8 +46,9 @@ a:hover {
 h1 {
   display: inline;
   font-family: 'Arial', sans-serif;
-  font-size: 64px;
   margin: 0;
+  padding-left: 8px;
+  font-size: 56px;
   background: rgb(144, 0, 201);
   background: linear-gradient(90deg,rgb(255, 153, 0) 0%, rgb(166, 0, 255) 100%);
   background-clip: text;
@@ -69,7 +70,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,7 +93,7 @@ ul {
 li {
   display: inline;
   font-family: 'Arial', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   padding-left: 8px;
   padding-right: 8px;
   letter-spacing: 1px;
@@ -112,14 +112,43 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1128px) {
 
   h1 {
+    font-size: 48px;
+  }
+
+  nav a {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  nav a {
     font-size: 24px;
   }
-  header {
-    text-align: left;
-    
+}
+
+@media screen and (max-width: 808px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+
+  h1 {
+    font-size: 32px;
   }
 
   nav a {
