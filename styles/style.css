@@ -61,6 +61,18 @@ h1 {
 
   }
 
+.header-open {
+  height: auto;
+}
+
+.header-open a{
+  display: inline;
+}
+
+.header-open ul {
+  display: block;
+}
+
 h2 {
   font-size: 48px;
   margin: 0 auto;
@@ -221,5 +233,6 @@ li {
   li {
     padding-bottom: 8px;
     padding-left: 0px;
+    padding-right: 0px;
   }
 }
