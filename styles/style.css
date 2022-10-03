@@ -28,6 +28,10 @@ a:hover {
 }
 
 .resume-link:hover, .resume-link:focus {
+  color: #ec7837;
+}
+
+.art-link:hover, .resume-link:focus {
   color: #d85670;
 }
 
@@ -108,7 +112,7 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 1016px) {
+@media screen and (max-width: 1080px) {
 
   h1 {
     font-size: 24px;
