@@ -39,6 +39,42 @@ a:hover {
   color: #ec7837;
 }
 
+.resume-text h3 {
+  display: inline;
+}
+
+.resume-text h4 {
+  display: inline;
+  color: #d85670;
+  padding-left: 16px;
+}
+
+.resume-text time {
+  font-style: italic;
+  color: rgb(255, 153, 0);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.resume-text span {
+  font-style: italic;
+  color: #ca3e98;
+}
+
+.resume-text ul {
+  display: revert;
+}
+
+.resume-text li {
+  font-size: 16px;
+  padding-left: revert;
+  padding-right: revert;
+  padding-bottom: 8px;
+  letter-spacing: revert;
+  list-style: revert;
+  margin-left: 16px;
+}
+
 .art-link:hover, .art-link:focus {
   color: #d85670;
 }
