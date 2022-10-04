@@ -43,7 +43,7 @@ function navResume() {
   engagement of various application features</li>
   <li>Assist with the planning and configuration of new client Digital Asset Management SaaS</li>
   </ul>
-  <br><br>
+  <br>
   <h3>Esker Software</h3> <time>June 2007 - June 2009</time> <span>Madison, WI</span>
   <br><br>
   <h4>Client Support Specialist</h4>
@@ -51,6 +51,14 @@ function navResume() {
   <li>Lead technical support triage responsible for qualifying client software issue severity,
   troubleshooting, and providing timely resolution to live issues</li>
   <li>Process client requests for account setup, product upgrades, and professional services</li>
+  </ul>
+  <h2>Education & Certificates:</h2>
+  <ul>
+  <li>O'reilly School Of Technology - Professional Java Development</li>
+  <li>O'reilly School Of Technology - Web programming</li>
+  <li>Infraguard - Information Security Awareness in the Workplace</li>
+  <li>IAAP WAS Certification Curriculum Preparation from Deque Systems Inc.</li>
+  <li>Minneapolis Community & Technical College - Computer Science</li>
   </ul>
   `;
   header.className = "header-closed";
