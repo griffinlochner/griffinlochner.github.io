@@ -84,8 +84,6 @@ a:hover {
   list-style: none;
 }
 
-
-
 .art-link:hover, .art-link:focus {
   color: #d85670;
 }
@@ -100,6 +98,30 @@ a:hover {
 
 .books-text {
   color: #ca3e98;
+}
+
+.books-text span {
+  font-style: italic;
+  color: #ca3e98;
+}
+
+.books-text ul {
+  display: revert;
+}
+
+.books-text li {
+  font-size: 24px;
+  padding-left: revert;
+  padding-right: revert;
+  padding-bottom: 16px;
+  letter-spacing: revert;
+  margin-left: 16px;
+}
+
+.books-text span {
+  font-size: 16px;
+  color:rgb(166, 0, 255);
+  padding-left: 24px;
 }
 
 .links-link:hover, .links-link:focus {
@@ -244,6 +266,10 @@ li {
 }
 
 @media screen and (max-width: 908px) {
+
+  .books-text li {
+    font-size: 16px;
+  }
 
   h1 {
     font-size: 32px;
