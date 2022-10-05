@@ -75,6 +75,17 @@ a:hover {
   margin-left: 16px;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skills-grid ul {
+  list-style: none;
+}
+
+
+
 .art-link:hover, .art-link:focus {
   color: #d85670;
 }

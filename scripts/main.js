@@ -52,7 +52,7 @@ function navResume() {
   troubleshooting, and providing timely resolution to live issues</li>
   <li>Process client requests for account setup, product upgrades, and professional services</li>
   </ul>
-  <h2>Education & Certificates:</h2>
+  <h2>Education & Certificates</h2>
   <ul>
   <li>O'reilly School Of Technology - Professional Java Development</li>
   <li>O'reilly School Of Technology - Web programming</li>
@@ -60,6 +60,33 @@ function navResume() {
   <li>IAAP WAS Certification Curriculum Preparation from Deque Systems Inc.</li>
   <li>Minneapolis Community & Technical College - Computer Science</li>
   </ul>
+  <h2>Skills</h2>
+  <div class="skills-grid">
+  <ul>
+  <li>Scrum and Agile methodologies</li>
+  <li>Atom, IntelliJ, Visual Studio Code</li>
+  <li>Ruby, Rspec, Airborne</li>
+  <li>Adobe Photoshop</li>
+  <li>Docker</li>
+  </ul>
+  <ul>
+  <li>Selenium / Webdriver / Playwright</li>
+  <li>GitHub</li>
+  <li>Java / PHP / HTML / CSS</li>
+  <li>MySQL, DynamoDB</li>
+  <li>Buildkite</li>
+  </ul>
+  <ul>
+  <li>REST API testing</li>
+  <li>Slack / Jira</li>
+  <li>Javascript / Typescript</li>
+  <li>Amazon Web Services</li>
+  <li>Node, NPM, React</li>
+  </ul>
+  </div>
+  <span>Note: The above list is a small sampling of apps, frameworks, languages, and tools that I'm experienced with. 
+  It is by no means complete as enumerating every tool I've used would be too exhaustive. </span>
+  <br><br><br>
   `;
   header.className = "header-closed";
   document.title = "Griffin Lochner - Resume";
