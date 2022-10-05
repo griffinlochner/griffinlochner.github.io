@@ -130,8 +130,9 @@ a:hover {
 
 .links-text {
   color:rgb(166, 0, 255);
+  text-align: center;
 }
-  
+
 h1 {
   display: inline;
   font-family: 'Arial', sans-serif;
