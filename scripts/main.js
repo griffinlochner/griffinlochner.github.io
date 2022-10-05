@@ -172,6 +172,8 @@ function navLinks() {
   <br><br>
   <a href="https://www.facebook.com/griffin.lochner">Facebook</a>
   <br><br>
+  <a href="https://github.com/griffinlochner">GitHub</a>
+  <br><br>
   <a href="https://www.linkedin.com/in/griffin-lochner-68482970/">LinkedIn</a>
   <br><br>
   <a href="https://www.youtube.com/channel/UCUi_TJ_OQppW-z8DP5nqz4w">Magic: the Gathering Youtube Channel</a>
