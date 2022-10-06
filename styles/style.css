@@ -74,6 +74,7 @@ a:hover {
 
 .resume-text ul {
   display: revert;
+  padding-left: 0px;
 }
 
 .resume-text li {
