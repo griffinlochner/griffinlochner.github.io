@@ -13,6 +13,7 @@ function navAbout() {
   main.className = "about-text"
   main.innerHTML = `
   <h2>About</h2>
+  <img src="images/kate_griff_psychedelic.jpg" width="520px" height= "520px" alt="Kate & Griff" />
   <p>
   Hey I'm Griff. For much of my professional life I've been a software test engineer. I appreciate
   and enjoy high quality accessible software and the testing processes required to sustain such quality. 
