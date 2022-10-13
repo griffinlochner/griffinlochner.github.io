@@ -15,22 +15,12 @@
     <link href="styles/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aldrich">
     <script src="scripts/main.js" defer></script>
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="scripts/main.js" defer></script>
   </head>
 
   <body>
-    <header id="header" class="header-closed">
-      <h1>Griffin Lochner</h1>
-      <nav>
-        <ul>
-          <li><a id="hamburger" href="javascript:void(0);" class="icon" onclick=toggleNav()>&#9776;</a></li>
-          <li><a class="about-link" onclick=navAbout() href="#">About</a></li>
-          <li><a class="resume-link" onclick=navResume() href="#">Resume</a></li>
-          <li><a class="art-link" onclick=navArt() href="#">Art</a></li>
-          <li><a class="books-link" onclick=navBooks()  href="#">Books</a></li>
-          <li><a class="links-link" onclick=navLinks() href="#">Links</a></li>
-        </ul>
-      </nav>
-    </header>
+    <header-component></header-component>
     <main id="main" class="about-text">
       <h2>About</h2>
       <img src="images/kate_griff_psychedelic.jpg" width="520px" height= "520px" alt="Kate & Griff" />
